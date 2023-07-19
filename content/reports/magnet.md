@@ -4,7 +4,7 @@ company: "Magnet Forensics"
 role: "Software Developer (Co-op)"
 period: "May 2021 - December 2021"
 description: "Matt McArdle's co-op work term report for his role at Magnet Forensics in 2021."
-image: "/assets/images/Magnet-Logo.png"
+image: "/images/Magnet-Logo.png"
 ---
 
 ### Welcome!

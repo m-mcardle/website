@@ -4,7 +4,7 @@ company: "Vidyard"
 role: "Software Developer (Co-op)"
 period: "January 2023 - August 2023"
 description: "Matt McArdle's co-op work term report for his role at Vidyard in 2023."
-image: "/assets/images/Vidyard-Logo.png"
+image: "/images/Vidyard-Logo.png"
 draft: true
 ---
 
