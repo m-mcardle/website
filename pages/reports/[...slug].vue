@@ -11,8 +11,8 @@
     <template #default="{ doc }">
       <NuxtLayout
         name="report"
-        :colour="$route.path.includes('magnet') ? 'bg-blue-950' : 'bg-[#072d0e]'"
-        :hover-colour="$route.path.includes('magnet') ? 'rgb(197, 217, 234, 0.15)' : 'rgba(29, 216, 101, 0.1)'"
+        :colour="doc.colour"
+        :hover-colour="doc.hoverColour"
       >
         <template #header>
           <div class="flex flex-row">
@@ -28,11 +28,11 @@
 
           <nav class="hidden lg:block">
             <ul class="mt-16">
-              <li class="py-2"><a href="#welcome" class="nav-link nav-active">Introduction</a></li>
-              <li class="py-2"><a href="#my-team" class="nav-link report-link">Report</a></li>
-              <li class="py-2"><a href="#kudos" class="nav-link">Kudos</a></li>
-              <li class="py-2"><a href="#conclusion" class="nav-link">Conclusion</a></li>
-              <li class="py-2"><a href="#goals" class="nav-link">Goals</a></li>
+              <li class="py-2"><a href="#introduction-section" class="nav-link">INTRODUCTION</a></li>
+              <li class="py-2"><a href="#report-section" class="nav-link">REPORT</a></li>
+              <li class="py-2"><a href="#kudos-section" class="nav-link">KUDOS</a></li>
+              <li class="py-2"><a href="#conclusion-section" class="nav-link">CONCLUSION</a></li>
+              <li class="py-2"><a href="#goals-section" class="nav-link">GOALS</a></li>
             </ul>
           </nav>
         </template>

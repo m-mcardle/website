@@ -1,8 +1,6 @@
 <template>
-  <!-- https://brittanychiang.com/ -->
-  <div class="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 h-full">
+  <div class="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-slate-300 selection:text-slate-900 h-full">
     <div class="group/spotlight relative">
-      <NavBar />
       <div id="background" class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" />
       <div class="px-6 lg:px-24 min-h-screen flex">
         <header class="py-24 w-1/2 sticky top-0 h-screen">
@@ -11,10 +9,10 @@
 
           <nav>
             <ul class="mt-16">
-              <li class="py-2"><a href="#about" class="about-link">ABOUT</a></li>
-              <li class="py-2"><a href="#experience">EXPERIENCE</a></li>
-              <li class="py-2"><a href="#education">EDUCATION</a></li>
-              <li class="py-2"><a href="#projects">PROJECTS</a></li>
+              <li class="py-2"><a href="#about" class="nav-link">ABOUT</a></li>
+              <li class="py-2"><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+              <li class="py-2"><a href="#education" class="nav-link">EDUCATION</a></li>
+              <li class="py-2"><a href="#projects" class="nav-link">PROJECTS</a></li>
             </ul>
           </nav>
         </header>
@@ -28,7 +26,7 @@
 
           <section id="experience" class="flex flex-col py-24 gap-4">
             <h2>EXPERIENCE</h2>
-            <NuxtLink to="/reports/vidyardw23" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
+            <div class="flex flex-col justify-start rounded-sm p-4 leading-snug">
               <div class="flex flex-row">
                 <div class="flex flex-col justify-between w-1/5">
                   <p class="text-xs font-bold">JAN - AUG 2023</p>
@@ -45,7 +43,7 @@
                   <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
                 </li>
               </ul>
-            </NuxtLink>
+            </div>
             <NuxtLink to="/reports/vidyards22" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
               <div class="flex flex-row">
                 <div class="flex flex-col justify-between w-1/5">
@@ -62,6 +60,9 @@
                 <li class="m-2" v-for="tag in PageData.experience.vidyard_s22.tags">
                   <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
                 </li>
+                <div class="m-2 ml-auto mr-0">
+                  <div class="flex items-center rounded-sm bg-slate-400/10 px-3 py-1 text-xs font-medium leading-5 text-slate-300 ">More Info</div>
+                </div>
               </ul>
             </NuxtLink>
             <NuxtLink to="/reports/magnet" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
@@ -180,41 +181,36 @@ export default defineNuxtComponent({
       element.style.background = `radial-gradient(600px at ${userCursorX}px ${userCursorYAdjusted}px, rgba(29, 78, 216, 0.15), transparent 80%)`;
     });
 
-    window.addEventListener('scroll', () => {
-      this.updateActiveNavLink();
-    });
+    window.addEventListener('scroll', () => this.updateActiveLink());
 
-    this.updateActiveNavLink();
+    this.updateActiveLink();
   },
 
   methods: {
-    updateActiveNavLink() {
-      var sections = document.getElementsByTagName('section');
-      var navLinks = document.getElementsByTagName('a');
+    updateActiveLink() {
+      const links = document.querySelectorAll('a.nav-link');
+      const sections = document.querySelectorAll('section');
 
-      for (var i = 0; i < sections.length; i++) {
-        var section = sections[i];
-        var rect = section.getBoundingClientRect();
-        var sectionTop = rect.top;
-        var sectionBottom = rect.bottom;
+      let closestSectionIndex = 0;
+      let closestSectionDistance = Number.MAX_VALUE;
 
-        if (sectionTop <= 10 && sectionBottom > -10) {
-          for (var j = navLinks.length - 1; j >= 0; j--) {
-            var navLink = navLinks[j];
-            if (navLink.getAttribute('href') === '#' + section.id) {
-              navLink.classList.add('nav-active');
-            } else {
-              navLink.classList.remove('nav-active');
-            }
-          }
+      // Find the closest section to the user's scroll position
+      for (let i = 0; i < sections.length; i++) {
+        const section = sections[i];
+        const distanceToTop = Math.abs(section.getBoundingClientRect().top);
+        if (distanceToTop < closestSectionDistance) {
+          closestSectionIndex = i;
+          closestSectionDistance = distanceToTop;
         }
       }
 
-      let foundSection = !!document.querySelector('.nav-active');
-      if (!foundSection) {
-        let reportLink = document.querySelector('.about-link');
-        reportLink.classList.add('nav-active');
-      }
+      // Remove active-link class from all links
+      links.forEach(link => {
+        link.classList.remove('nav-active');
+      });
+
+      // Add active-link class to the link corresponding to the closest section
+      links[closestSectionIndex].classList.add('nav-active');
     }
   }
 });

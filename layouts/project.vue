@@ -1,5 +1,5 @@
 <template>
-  <div :class="`${colour} leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 h-full`">
+  <div :class="`${colour} leading-relaxed text-slate-400 antialiased selection:bg-slate-300 selection:text-slate-900 h-full`">
     <div class="group/spotlight relative">
       <NavBar />
       <div id="background" class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" />

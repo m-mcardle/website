@@ -5,7 +5,11 @@ role: "Software Developer (Co-op)"
 period: "May 2022 - August 2022"
 description: "Matt McArdle's co-op work term report for his role at Vidyard in the summer of 2022."
 image: "/images/Vidyard-Logo.png"
+colour: "bg-[#072d0e]"
+hoverColour: "rgba(29, 216, 101, 0.1)"
 ---
+
+<section id="introduction-section">
 
 ### Welcome!
 
@@ -43,6 +47,9 @@ The repository I interacted with ended up being **ConstructionYard**. This repo 
 ![Vue logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png)
 ![Construction clip art of crane and building in black and white](https://png.pngtree.com/png-vector/20190227/ourlarge/pngtree-vector-construction-house-icon-png-image_708533.jpg)
 
+</section>
+
+<section id="report-section">
 
 ### My Team
 
@@ -116,6 +123,10 @@ The final phase of my team's project was to extend the functionality of the Dash
 ![Filter clip art](https://static.thenounproject.com/png/1014280-200.png)
 
 
+</section>
+
+<section id="kudos-section">
+
 ### Kudos
 
 I would now like to take some time to thank some of the amazing people who have had an impact on me throughout the term. Vidyard is full of amazing people who all deserve recognition, but for the sake of keeping this brief, I'll only go into detail about three of them.
@@ -132,7 +143,50 @@ I would also like to thank my amazing co-op buddy [Nyssa Wilfong](https://www.li
 
 Last but not least I want to thank my fellow co-op, [Massimo De Luca](https://ca.linkedin.com/in/massimo-deluca). He was my partner during my fun little "GIF-Police" side project and was an absolute blast to work with. It was such a joy to work alongside him and my co-op term would only have been a fraction as fun without being able to go out to lunch and share the office with such a great guy.
 
+</section>
+
+<section id="conclusion-section">
+
 ### Conclusion
 
 Overall, I was blown away with the amazing opportunities presented to me throughout my co-op term and feel so fortunate to be surrounded by such awesome people and such cool technology. This co-op term was an amazing four months of sharpening my front-end skills, getting my first real leadership experience, and lots of fun! I am so thankful I got great experience with powerful tech such as Vue, Ruby on Rails, Cypress, Vuex, Datadog, and Launch Darkly. After another successful co-op term, I cannot wait to see what my next placement will hold!
 
+</section>
+
+<section id="goals-section">
+
+## Goals
+
+In this section I will give a summary of the goals I set out to accomplish over the term and reflect on their outcomes. There are five separate success levels I will be using to describe my success in achieving each goal. These levels are Failure, Satisfactory, Success, and Outstanding.
+
+:GoalHeading{title="Project Lead" subtitle="Lead a phase of a project" level="Outstanding"}
+
+During the early stages of my co-op I learned about the flow of our projects and became very interested in the responsibilities of becoming a "Project Lead". This title belonged to the developer who would be responsible for managing the day-to-day development of the project to ensure that all stakeholders are operating effectively and the development is going smoothly. This role is almost never given to co-ops due to the responsibility that must be put on them, but I really believed that I could demonstrate that I was qualified to achieve such an opportunity. To accomplish this goal I made it a focus of mine to demonstrate everyday that I was dependable enough, insightful enough, and confident enough to take on the responsibilities of this role. On top of that I made it a goal of mine to learn as much as I could about the duties involved and payed close attention to the actions of other "Project Leads" to ensure that I would be prepared if I was presented with the opportunity. Luckily enough for me, I was assigned the position for the very last phase that was available before my term was over. It was such a valuable experience to get such raw leadership experience so early into my career, and I am so thankful that I got the opportunity. As "Project Lead" we completed the project before our refined projection, and because of this I would certainly mark this goal as an outstanding success for myself.
+
+![Conversation clipart](https://www.pngitem.com/pimgs/m/235-2354062_red-conversation-icon-png-clipart-png-download-chat.png)
+
+:GoalHeading{title="Personal Projects" subtitle="Enhance my project portfolio" level="Outstanding"}
+
+As I've progressed through my early career I've really come to appreciate the value in learning through my extracurricular side projects that I have developed. From these projects I've gained valuable experience with powerful new tech, applied my learnings from university, enhanced my portfolio, and had a lot of fun while doing it! Because of this, I made it a goal of mine over the co-op term to find opportunities to apply my learnings during my term into new side projects outside of working hours. To accomplish this I made it a habit to jot down interesting languages, frameworks, or concepts that I wanted to explore more during my own time. One of the projects that came from this was rebuilding my personal website from scratch using the Vue-based Nuxt framework due to how much I was enjoying learning Vue during the term. This gave me a great opportunity to explore the Vue language a bit deeper and also get experience with a new powerful framework. Another project I developed involved a email notification service to inform subscribers of predicted large changes in gas prices. This idea actually came from a suggestion from a fellow co-op Massimo when I asked him for ideas of how to utilize a gas price API that I had built. On top of that, I decided to write the scripts using Ruby to get more experience with the language I had just started working with during the term. With multiple successful projects completed, I would certainly say that I have accomplished this goal.
+
+![Idea lightbulb clipart](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
+
+:GoalHeading{title="Test Driven Development" subtitle="Gain experience with TDD" level="Success"}
+
+One concept I really wanted to get more experience with was test driven development. It is an interesting concept that I've learned during my studies but I have never had the motivation to put it into practice before. To change this I made it a goal of mine to complete some tickets while fully following the ideologies of TDD. To accomplish this goal I spent time refreshing myself on the concepts involved as well as the testing libraries that were available to me at Vidyard. I then began finding tickets with functionality that I believed would be appropriate for a test-driven approach to its development. I was then able to finally take a feature from "red to green" as I began building my Jest assertions before I developed any code. I was able to try this out for a handful of my tickets so I would say that I accomplished this goal. However, I unfortunately found this approach to be a bit heavy for the work I was doing and found that it was taking more time to follow this approach than I believed was worth it. Because of this, I eventually stepped away from following TDD for my tickets, but because I did get to try it out I would definitely mark this as a success.
+
+![Testing clipart](https://clipart-library.com/newhp/158-1587103_report-icons-test-icon-clipart.png)
+
+:GoalHeading{title="Technical Proficiency" subtitle="Learn Ruby and Vue.js" level="Outstanding"}
+
+One goal that I felt was vital to my success at Vidyard would be ramping myself up on the languages and technologies associated with the development environment of my team. This involved the programming languages Vue and Ruby, and tools such as Datadog and LaunchDarkly. To accomplish this goal I used a variety of educational resources to research this unfamiliar areas early in my term. One of my favorites was Ruby Koans which was an interactive workbook that taught me all the wild stuff that Ruby could do. I also made it a focus of mine to not shy away from unfamiliar languages during code reviews or while picking up tickets. By forcing myself to go outside of my comfort zone, I would give myself opportunities to learn through experience. After becoming totally comfortable developing in Vue and Ruby and becoming experienced modifying our feature flags on LaunchDarkly, I would say that I absolutely achieved this goal.
+
+![Vue logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png)
+
+:GoalHeading{title="Internal Project" subtitle="GIF Police Guild" level="Outstanding"}
+
+Another goal I created was to utilize my Vidyard "Growth Time" to develop an internal project with some of my peers. I wanted to get more of an opportunity exploring new areas and also working with new people, and by contributing to an internal project I would accomplish both of those things. To achieve this goal I made sure to keep a creative mindset while working. By doing this I kept my eyes out for areas of improvement across the platform. About midway through my term, I was joking with two fellow co-ops about how our most valuable contributions were policing GitHub pull requests to ensure they have a GIF in their description. For context, it is an awesome Vidyard policy where developers are always supposed to place a GIF in each of their PRs. From these jokes I came up with an idea to automate the "GIF Policing" and founded a development guild alongside these two other co-ops to do this. This project ended up involving GitHub webhooks and a whole lot of regex parsing but by the end of it we had a fully operational automated labeling system that would alert owners that their PR was GIF-less. This project was a lot of fun and I'm glad I got to collaborate with some of the other co-ops so I would absolutely mark this goal as achieved.
+
+![Idea lightbulb clipart](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
+
+</section>

@@ -5,7 +5,11 @@ role: "Software Developer (Co-op)"
 period: "May 2021 - December 2021"
 description: "Matt McArdle's co-op work term report for his role at Magnet Forensics in 2021."
 image: "/images/Magnet-Logo.png"
+colour: "bg-blue-950"
+hoverColour: "rgb(197, 217, 234, 0.15)"
 ---
+
+<section id="introduction-section">
 
 ### Welcome!
 
@@ -33,6 +37,10 @@ One thing that I really came to appreciate about Magnet is its policy at each al
 
 ![Metro Nashville Police badge](https://upload.wikimedia.org/wikipedia/commons/5/57/Metro_Nashville_Police_Patch.png)
 ![Scotland Police logo](https://www.largsandmillportnews.com/resources/images/4405837/)
+
+</section>
+
+<section id="report-section">
 
 ### My Team
 As mentioned before I joined the Magnet REVIEW team. More specially I originally joined the Taco sub-team which specializes in deployment and infrastructure primarily. This came as very exciting but terrifying news to know I would be surrounded by super cool tech which I unfortunately had little to no experience with. I knew that this term would certainly give me more than enough opportunities to try out new technologies and immediately knew I was on a team that was more than happy to help me learn. I want to take some time now to go over some important themes/tasks I performed during my time at Magnet to demonstrate some of the awesome opportunities I had to learn.
@@ -67,6 +75,9 @@ When nearing the end of my co-op I discovered some inflexibility in one of our m
 
 ![Refactoring icon](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLBkCHXoIcNq_JT6Wbos32LIzIEjvtVE68_iLDTqeZhv_5m1Rc)
 
+</section>
+
+<section id="kudos-section">
 
 ### Kudos
 
@@ -88,6 +99,74 @@ I also need to extend a huge thank you to [Robert Nelson](https://www.linkedin.c
 
 I seriously cannot stress enough how amazing the people were during my time at Magnet. I was blown away each and every day with their willingness to collaborate and educate, and maintain a super fun environment to work in as well. For a first co-op experience, I cannot imagine anything better and I am so grateful I got the opportunity to work with such amazing people.
 
-### Conclusion
+</section>
+
+<section id="conclusion-section">
+
+## Conclusion
 
 Overall my co-op term was an absolutely amazing experience and I am so grateful for all the opportunities to learn from such intelligent and passionate people. I am also super grateful that I got experience with so many fascinating and powerful technologies during my time there such as Jenkins, AWS, Grafana, Gerrit, Locust, ElasticSearch, Python, Kubernetes, Azure, Docker, C#, Bootstrap, React.js, and Bash. For my first co-op opportunity, I could never have imagined it being so successful and enjoyable, and it has made me even more excited about my future career.
+
+</section>
+
+<section id="goals-section">
+
+## Goals
+
+In this section I will give a summary of the goals I set out to accomplish over the term and reflect on their outcomes. There are five separate success levels I will be using to describe my success in achieving each goal. These levels are Failure, Satisfactory, Success, and Outstanding.
+
+:GoalHeading{title="C#" subtitle="Become proficient in C#" level="Outstanding"}
+
+One goal was to become proficient using C#. I came into the work term with no prior experience with the language and considering almost all of our microservices are written in C# I knew I would need to ramp myself up on C#. I accomplished this goal by signing up on Pluralsight for a C# learning course to cover the language basics, and made a personal effort to give all code reviews written in C# a look so I can learn by example and by asking the other developer's questions about their code. Even with that personal effort I still have to say that I would not have learned so much so fast about the language if it wasn't for my pair programming experience I previously mentioned with Christian. By learning through my Pluralsight course, observing the other dev's new C# code, and an amazing hands-on learning experience working on our CLI, I can confidently say I am now comfortable developing in C#. I would certainly say I have accomplished this goal.
+
+![C# logo](https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png)
+
+:GoalHeading{title="AWS" subtitle="Become an AWS Certified Cloud Practitioner" level="Satisfactory"}
+
+Looking back this is my most regretted goal. My Magnet mentor Chris warned me that as I became more involved with the team I would find this goal not as appealing and unfortunately that was exactly the case. I believed getting a certification would be a great tangible evidence of my learnings during my co-op, but as I became completely integrated into the team, I found little time to dedicate to this goal. On top of that, the certification itself became less and less appealing as I did more and more AWS courses. It turns out that the certification is targeted at product management or other roles with less of a focus on technical ability. This essentially made the course focused on using the AWS dashboard and learning the high-level definitions of each AWS product. It also put more of a focus on cost-management and other tasks that a employee in a leadership role would care about, and as a co-op hoping to learn about implementations, that didn't align with my current career status. I ended up accepting that this goal would not be accomplished in lieu of the issues I just mentioned. However, I would honestly measure it a slight success because through my co-op term I learned so much about AWS just through hands on experience (even if I don't have a certification to show for it).
+
+![AWS logo](https://www.zencos.com/wp-content/uploads/2021/11/aws-logo.png)
+
+:GoalHeading{title="Soft Skills" subtitle="Improve my ability to engage in technical conversations" level="Outstanding"}
+
+Early on in my co-op I felt myself lurking in group conversations about implementations and design orientated conversations, especially when it involved a technology I hadn't worked with yet. I wanted to be able to contribute to these conversations so I made it a goal of mine to learn from my coworkers about how they approach those types of conversations, and also research any technologies or concepts that I was unfamiliar with when they were brought up in these conversations. This turned out to be one of my favourite goals looking back as it pushed me out of my comfort zone to learn about so many new technologies during my term. I also think this goal helped develop a very important skill, engaging in discussions without an expert-level of knowledge about the subject. By the end of the term I feel I learned how to ask the important questions during this discussions to understand the problems and possible solutions, without needing to be very experienced with the technologies involved in the problem. This allowed me to contribute my opinion far more during design discussions and when creating acceptance-criteria for a ticket, and I think this growth in my abilities really unlocked a huge aspect of the job for me once I was able to engage in these conversations. I am very proud of how this goal turned out and I would certainly say I achieved it.
+
+![Conversation clipart](https://www.pngitem.com/pimgs/m/235-2354062_red-conversation-icon-png-clipart-png-download-chat.png)
+
+:GoalHeading{title="Product Management" subtitle="Learn more about product management" level="Success"}
+
+Because of my ongoing pursuit of a Minor in Business arts, I figured during my work-term I should avoid only focusing only on the software development aspects of the team and also try and get some learnings about the business of the company. To achieve this I made it a goal of mine to make an extra effort to interact and pay close attention to my team's Product Managers. Ay paying attention to how they make decisions and set priorities for the team, I hoped to learn how software can be valued from a business perspective. Luckily for me, I had plenty of opportunities to be involved in timeline and priority discussions with our Product Managers, and even had some 1-on-1 opportunities to discuss specific feature requests with them. This allowed me to ask questions about risk management and customer relations, and give me real life experience in a highly active business environment. I never got quite comfortable enough to ask for personal discussions as I had hoped to, but because of all of the amazing interactions that I was involved in naturally with our Product Managers, I would mark this goal as a success.
+
+![Business suitcase icon](https://static.thenounproject.com/png/4681180-200.png)
+
+:GoalHeading{title="Kubernetes" subtitle="Familiarize myself with our Kubernetes infrastructure" level="Success"}
+
+During my first four months of my co-op I learned the base level knowledge needed to understand our Kubernetes infrastructure, but knew there is just so much more for me to learn about it. Aecause of this, I made it a goal of mine in my last four months to become much more familiar with Kubernetes. To accomplish this I planned on completing more Kubernetes related tickets during my last months at Magnet, but ran into difficulty when priorities were set on front-end related tickets. However, I stayed determined to surround myself with Kubernetes and volunteered as a Support Tribute to help troubleshoot issues in active REVIEW environments. Luckily for me most of the issues require navigation through Kubernetes to at the very least diagnose the issue, and sometimes the issue is even Kubernetes related. This allowed me to slowly expand my familiarity with Kubernetes environments, and during my last month I even ran a seminar with two of our new hires to give a surface level tutorial with our installations and Kubernetes deployments. Aecause I was able to run a seminar for a new hires, I would certainly say I achieved my goal of becoming familiar with Kubernetes.
+
+![Kubernetes logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png)
+
+:GoalHeading{title="Co-op Relations" subtitle="Become more involved with co-op social events" level="Outstanding"}
+
+After four months at Magnet I realized I had been focusing too much on maximizing my productivity during work hours, and was missing out on some great social opportunities that Magnet was providing. Magnet has a weekly meeting for co-op students to attend to relax and play games and socialize, and during my first term I was taking myself too seriously and rarely attended. This meant I missed out of meeting some awesome people and possible future connections to use in my career. For this reason, I made it a goal of mine to attend all social events presented to me (work-permitting). After attending almost all of the term's co-op meetings, I have made friends with plenty of the other co-op students and have remained in touch even after the term. Therefore I would mark this goal as an outstanding success.
+
+![Handshake clipart](https://www.kindpng.com/picc/m/150-1504367_clip-art-shake-hand-transparent-background-handshake-clipart.png)
+
+:GoalHeading{title="Python" subtitle="Become familiar with the Python programming language" level="Outstanding"}
+
+During my first four months of my co-op, I worked with Python for my first time to develop load-testing tests using the Locust framework. I found the language to be pretty fun to learn, and knew with its reputation I should certainly be more comfortable with the language. Therefore, I made it a goal for my second term to learn Python through any means I could. When I originally made this goal I did it with the information that we were planning to create new deployment scripts in Python, but unfortunately that task was delegating to another team, and I didn't get the opportunity to develop it. This didn't stop my goal however, as when the code moved into code review, I gave it plenty of my attention and learned from the other developers code. On top of this, I completed two side projects using the language to give myself ample opportunity to learn it. These projects were my F1 Standings Visualizer and the yearly Advent of Code challenge (which I did in Python). After these two projects, and my learnings during my work term, I would certainly say I am familiar with the language and this goal has been achieved.
+
+![Python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+
+:GoalHeading{title="BVT" subtitle="Become a Build Verification Testing co-champion" level="Outstanding"}
+
+I became very interested in the responsibilities required to run a smooth BVT before a release. However, I knew that the only release left before my term was over was going to be a very important one. For this reason, I decided to take on the responsibility as a co-champion with another developer to ensure all went smoothly. This gave me an opportunity to lead the whole team to ensure all necessary behaviour is tested and all procedure is followed before a release. It was quite a stressful goal to take on, but I am so glad I gave myself the opportunity to take on such an important role during my time at Magnet.
+
+![Testing clipart](https://clipart-library.com/newhp/158-1587103_report-icons-test-icon-clipart.png)
+
+:GoalHeading{title="Personal Projects" subtitle="Enhance my project portfolio" level="Outstanding"}
+
+As my co-op term came closer to its end, I realized I had learned so much but didn't apply my learnings to any projects for my portfolio. Because of this, I made it a goal to apply learnings from work hours into personal projects during my leisure time. This gave me opportunity to develop projects in Python, React.js, Bash, and C that I can add to my portfolio to show future employers. I ended up developing a F1 Standings Visualizer in Python, this whole website in React.js and Tailwind, some helper scripts for both projects in Bash, a Roulette simulator for a roommate of mine in C, and a hangman game in C as well. Of course I always will wish I had completed even more projects, but I am very happy with what resulted from this goal and would mark it as a great success.
+
+![Idea lightbulb clipart](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
+
+</section>
