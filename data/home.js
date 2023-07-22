@@ -30,6 +30,7 @@ export const data = {
         'Vue',
         'GraphQL',
         'React',
+        'OpenAI'
       ]
     },
     idk: 'I contributed to a project to migrate our Sharing Pages assignment behaviour to a more flexible and scalable architecture. This involved creating new inheritance logic in Ruby on Rails, new GraphQL endpoints for accessing this data, and creating new components for a new library page in Vue.\nI also researched and ideated a project to our routing behaviour to result in less broken links in 75% of URL change flows. This resulted in a much better user experience when changing where their videos are located.\nOn multiple occasions I also took on the extra responsibility of Incident Commander to coordinate a team to respond to outages in a high-pressure environment.\nI then changed to a new team to deliver new features in our Chrome Extension using React and Redux, while also leading a project to migrate our OpenAI integration to a new model.\nThis migration project resulted in a 92.5% decrease in cost on the new model and I also implemented real-time response streaming to improve the user experience. This involved extending our OpenAI service to receive the OpenAI response in chunks asynchronously in a queued Sidekiq job, storing the stream in Redis, and subscribing to the stream via GraphQL and ActionCable websockets in Ruby on Rails.'

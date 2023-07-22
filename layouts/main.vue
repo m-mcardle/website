@@ -3,11 +3,11 @@
     <div class="group/spotlight relative">
       <div id="background" class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" />
       <div class="px-6 lg:px-24 lg:min-h-screen flex flex-col lg:flex-row">
-        <header class="py-24 lg:w-1/2 lg:sticky lg:top-0 lg:h-screen">
+        <header class="py-24 lg:w-2/5 lg:sticky lg:top-0 lg:h-screen">
           <slot name="header" />
         </header>
 
-        <main class="py-12 lg:w-1/2">
+        <main class="py-12 lg:w-3/5">
           <slot />
         </main>
       </div>

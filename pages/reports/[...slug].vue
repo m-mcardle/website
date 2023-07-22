@@ -10,7 +10,7 @@
 
     <template #default="{ doc }">
       <NuxtLayout
-        name="report"
+        name="main"
         :colour="doc.colour"
         :hover-colour="doc.hoverColour"
       >
@@ -37,7 +37,7 @@
           </nav>
         </template>
 
-        <ContentRenderer :value="doc" class="report w-full mx-auto prose text-slate-400 prose-strong:text-slate-400 prose-headings:text-slate-400 prose-a:text-slate-300" />
+        <ContentRenderer :value="doc" class="report w-full max-w-full mx-auto prose text-slate-400 prose-strong:text-slate-400 prose-headings:text-slate-400 prose-a:text-slate-300" />
       </NuxtLayout>
     </template>
   </ContentDoc>
