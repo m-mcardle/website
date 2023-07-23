@@ -4,10 +4,12 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
+    '@nuxt/image',
     'nuxt-icon'
   ],
   css: [
     '~/assets/fonts/inter.css',
     '~/assets/css/global.css',
-  ]
+  ],
+  plugins: [{ src: '~/plugins/vercel.js', mode: 'client' }],
 })
