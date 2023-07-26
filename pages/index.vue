@@ -30,7 +30,7 @@
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
             <p class="text-xs font-bold">JAN - AUG 2023</p>
-            <img :src="VidyardLogo" alt="Vidyard Logo" class="w-16" />
+            <nuxt-img src="/images/Vidyard-Logo.png" alt="Vidyard Logo" class="w-16" />
           </div>
           <div class="flex flex-col w-4/5">
             <p class="text-white font-bold">Software Developer (Co-op) · Vidyard</p>
@@ -48,7 +48,7 @@
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
             <p class="text-xs font-bold">MAY - AUG 2022</p>
-            <img :src="VidyardLogo" alt="Vidyard Logo" class="w-16" />
+            <nuxt-img src="/images/Vidyard-Logo.png" alt="Vidyard Logo" class="w-16" />
           </div>
           <div class="flex flex-col w-4/5">
             <p class="text-white font-bold">Software Developer (Co-op) · Vidyard</p>
@@ -72,7 +72,7 @@
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
             <p class="text-xs font-bold">MAY - DEC 2021</p>
-            <img :src="MagnetLogo" alt="Magnet Forensics Logo" class="w-16" />
+            <nuxt-img src="/images/Magnet-Logo.png" alt="Magnet Forensics Logo" class="w-16" />
           </div>
           <div class="flex flex-col w-4/5">
             <p class="text-white font-bold">Software Developer (Co-op) · Magnet Forensics</p>
@@ -99,7 +99,7 @@
       <div class="flex flex-row justify-start rounded-sm p-4 leading-snug">
         <div class="flex flex-col justify-between w-1/5">
           <p class="text-xs font-bold">2019 - 2024</p>
-          <img :src="UoGLogo" alt="University of Guelph Logo" class="w-16" />
+          <nuxt-img src="/images/UoG-Logo.png" alt="University of Guelph Logo" class="w-16" />
         </div>
         <div class="flex flex-col w-4/5">
           <p class="text-white font-bold">B.Comp, Software Engineering (Co-op) · University of Guelph</p>
@@ -112,26 +112,28 @@
     <section id="projects" class="flex flex-col py-24 gap-4">
       <h2>PROJECTS</h2>
       <div v-for="project in Projects" :key="project.id" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
-        <a :href="`/projects/${project.link}`">
-          <div class="flex flex-row justify-between gap-4">
-            <img v-if="project.logo" :src="project.logo" alt="Project Image" class="w-1/6 h-fit" />
+        <div>
+          <NuxtLink :to="project.link" class="flex flex-row justify-between gap-4">
+            <nuxt-img v-if="project.logo" :src="project.logo" alt="Project Image" class="w-1/6 h-fit" />
             <div>
-              <p class="text-white font-bold mb-2">{{ project.title }}</p>
+              <div class="flex flex-row justify-between">
+                <p class="text-white font-bold">{{ project.title }}</p>
+                <p class="text-white font-semibold text-xs">{{ project.year }}</p>
+              </div>
               <p>{{ project.content }}</p>
-
-              <ul class="flex flex-wrap">
-                <li class="m-2" v-for="tag in project.tags">
-                  <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
-                </li>
-                <div class="m-2 ml-auto mr-0">
-                  <a class="flex items-center rounded-sm bg-slate-400/10 px-6 py-2 text-xs font-medium leading-5 text-slate-300" :href="`https://github.com/${project.github}`">
-                    <Icon name="uil:github" color="white" size="2em" />
-                  </a>
-                </div>
-              </ul>
             </div>
-          </div>
-        </a>
+          </NuxtLink>
+          <ul class="flex flex-wrap">
+            <li class="m-2" v-for="tag in project.tags">
+              <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
+            </li>
+            <div class="m-2 ml-auto mr-0">
+              <a class="flex items-center rounded-sm bg-slate-400/10 px-6 py-2 text-xs font-medium leading-5 text-slate-300" :href="`https://github.com/${project.github}`">
+                <Icon name="uil:github" color="white" size="2em" />
+              </a>
+            </div>
+          </ul>
+        </div>
       </div>
     </section>
   </NuxtLayout>
