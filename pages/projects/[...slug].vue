@@ -18,6 +18,19 @@
   </ContentDoc>
 </template>
 
+<script setup>
+const route = useRoute()
+const slug = route.path.toLowerCase()
+try {
+  const data = await queryContent(slug).findOne();
+  if (!data) {
+    throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+  }
+} catch {
+  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+}
+</script>
+
 <script>
 export default defineNuxtComponent({
   name: 'ProjectPage',

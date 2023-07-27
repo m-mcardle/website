@@ -8,11 +8,11 @@
       <NuxtLink to="/" class="flex flex-row justify-center items-center hover:bg-slate-600/50 rounded-sm leading-snug">
         About
       </NuxtLink>
-      <NuxtLink to="/reports/vidyards22" class="flex flex-row justify-center items-center hover:bg-slate-600/50 rounded-sm leading-snug">
-        Vidyard
+      <NuxtLink to="/projects" class="flex flex-row justify-center items-center hover:bg-slate-600/50 rounded-sm leading-snug">
+        Projects
       </NuxtLink>
-      <NuxtLink to="/reports/magnet" class="flex flex-row justify-center items-center hover:bg-slate-600/50 rounded-sm leading-snug">
-        Magnet Forensics
+      <NuxtLink to="/reports" class="flex flex-row justify-center items-center hover:bg-slate-600/50 rounded-sm leading-snug">
+        Reports
       </NuxtLink>
     </div>
   </div>

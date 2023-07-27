@@ -8,7 +8,7 @@
       <h1 class="text-4xl text-slate-200 font-bold">Matt McArdle</h1>
       <h2 class="text-2xl text-slate-300 font-medium">Software Engineer / Student</h2>
 
-      <nav>
+      <nav class="hidden lg:block">
         <ul class="mt-16">
           <li class="py-2"><a href="#about" class="nav-link">ABOUT</a></li>
           <li class="py-2"><a href="#experience" class="nav-link">EXPERIENCE</a></li>
@@ -25,7 +25,9 @@
     </section>
 
     <section id="experience" class="flex flex-col py-24 gap-4">
-      <h2>EXPERIENCE</h2>
+      <NuxtLink to="/reports" class="hover:text-slate-200">
+        <h2>EXPERIENCE</h2>
+      </NuxtLink>
       <div class="flex flex-col justify-start rounded-sm p-4 leading-snug">
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
@@ -110,30 +112,30 @@
     </section>
 
     <section id="projects" class="flex flex-col py-24 gap-4">
-      <h2>PROJECTS</h2>
-      <div v-for="project in Projects" :key="project.id" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
-        <div>
-          <NuxtLink :to="project.link" class="flex flex-row justify-between gap-4">
-            <nuxt-img v-if="project.logo" :src="project.logo" alt="Project Image" class="w-1/6 h-fit" />
-            <div>
-              <div class="flex flex-row justify-between">
-                <p class="text-white font-bold">{{ project.title }}</p>
-                <p class="text-white font-semibold text-xs">{{ project.year }}</p>
-              </div>
-              <p>{{ project.content }}</p>
+      <NuxtLink to="/projects" class="hover:text-slate-200">
+        <h2>PROJECTS</h2>
+      </NuxtLink>
+      <div v-for="project in Projects" :key="project.id" class="flex flex-col justify-start rounded-sm leading-snug">
+        <NuxtLink :to="project.link" class="peer flex flex-row justify-between gap-4 p-4 hover:bg-slate-600/50">
+          <nuxt-img v-if="project.logo" :src="project.logo" alt="Project Image" class="w-1/6 h-min" />
+          <div>
+            <div class="flex flex-row justify-between">
+              <p class="text-white font-bold">{{ project.title }}</p>
+              <p class="text-white font-semibold text-xs">{{ project.year }}</p>
             </div>
-          </NuxtLink>
-          <ul class="flex flex-wrap">
-            <li class="m-2" v-for="tag in project.tags">
-              <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
-            </li>
-            <div class="m-2 ml-auto mr-0">
-              <a class="flex items-center rounded-sm bg-slate-400/10 px-6 py-2 text-xs font-medium leading-5 text-slate-300" :href="`https://github.com/${project.github}`">
-                <Icon name="uil:github" color="white" size="2em" />
-              </a>
-            </div>
-          </ul>
-        </div>
+            <p>{{ project.content }}</p>
+          </div>
+        </NuxtLink>
+        <ul class="flex flex-wrap peer-hover:bg-slate-600/50">
+          <li class="m-2" v-for="tag in project.tags">
+            <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
+          </li>
+          <div class="m-2 ml-auto mr-0">
+            <a class="flex items-center rounded-sm bg-slate-400/10 px-6 py-2 text-xs font-medium leading-5 text-slate-300" :href="`https://github.com/${project.github}`">
+              <Icon name="uil:github" color="white" size="2em" />
+            </a>
+          </div>
+        </ul>
       </div>
     </section>
   </NuxtLayout>
