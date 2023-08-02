@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     vercel = {
-      source = "vercel/vercel"
+      source  = "vercel/vercel"
       version = "~> 0.3"
     }
     aws = {
@@ -20,8 +20,8 @@ resource "vercel_project" "website" {
   framework = "nuxtjs"
   git_repository = {
     production_branch = "main"
-    type = "github"
-    repo = "m-mcardle/website"
+    type              = "github"
+    repo              = "m-mcardle/website"
   }
 }
 
