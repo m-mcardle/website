@@ -5,7 +5,7 @@ role: "Software Developer (Co-op)"
 period: "May 2022 - August 2022"
 description: "Matt McArdle's co-op work term report for his role at Vidyard in the summer of 2022."
 image: "/images/Vidyard-Logo.png"
-colour: "bg-[#072d0e]"
+colour: "bg-green-900"
 hoverColour: "rgba(29, 216, 101, 0.1)"
 ---
 

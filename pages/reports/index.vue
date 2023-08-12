@@ -22,11 +22,6 @@
             <li class="m-2" v-for="tag in report.tags">
               <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
             </li>
-            <div class="m-2 ml-auto mr-0">
-              <a class="flex items-center rounded-sm bg-slate-400/10 px-6 py-2 text-xs font-medium leading-5 text-slate-300" :href="`https://github.com/${report.github}`">
-                <Icon name="uil:github" color="white" size="2em" />
-              </a>
-            </div>
           </ul>
         </div>
       </div>
@@ -45,8 +40,7 @@ export default {
   },
 
   async created() {
-    const data = await queryContent('reports').find();
-    console.log(data[0]);
+    const data = await queryContent('reports').where({ _draft: false }).find();
     this.Reports = data;
   },
 }

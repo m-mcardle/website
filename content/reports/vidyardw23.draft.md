@@ -5,7 +5,7 @@ role: "Software Developer (Co-op)"
 period: "January 2023 - August 2023"
 description: "Matt McArdle's co-op work term report for his role at Vidyard in 2023."
 image: "/images/Vidyard-Logo.png"
-colour: "bg-[#072d0e]"
+colour: "bg-green-900"
 hoverColour: "rgba(29, 216, 101, 0.1)"
 draft: true
 ---
@@ -90,6 +90,14 @@ foo bar
 
 ![Filter clip art](https://static.thenounproject.com/png/1014280-200.png)
 
+
+### NVIDIA
+
+During my last co-op term I had an idea for a new service we could integrate into our platform. I saw online that NVIDIA had released a new AI-powered SDK for video alterations and noticed that one of the features was a Gaze Redirection tool that would adjust a person's eyes so that they always maintain eye-contact with their camera. The company I was working for was a video platform targeted towards sales professionals, and we provide recording tools to help with sales outreach. We already provided a "Speaker Notes" feature where you can jot down your notes to refer to while recording, so I knew that having the ability to read off your notes but still appear engaged with the video would be super valuable.
+
+I pitched the idea to my Product Manger and it eventually bubbled up to the Senior Leadership Team who showed a great interest in the project. I eventually developed a prototype that allowed us to get user feedback on the feature and decide how much to invest into it in the future.
+
+I'm mainly proud of this not just for the code I had to 
 
 
 ### Kudos

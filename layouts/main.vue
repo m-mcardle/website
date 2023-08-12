@@ -59,7 +59,7 @@ export default {
       });
 
       // Add active-link class to the link corresponding to the closest section
-      links[closestSectionIndex].classList.add('nav-active');
+      links[closestSectionIndex]?.classList.add('nav-active');
     },
 
     updateHoverEffect(event) {
