@@ -11,7 +11,8 @@ export const projects = [
       "Svelte",
       "Python",
       "Heroku",
-      "ChatGPT"
+      "Vercel",
+      "OpenAI"
     ],
     title: "ChefGPT",
     updatedAt: "2023-04-03T00:02:33.160Z",

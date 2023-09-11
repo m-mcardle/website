@@ -5,7 +5,7 @@ role: "Software Developer (Co-op)"
 period: "May 2022 - August 2022"
 description: "Matt McArdle's co-op work term report for his role at Vidyard in the summer of 2022."
 image: "/images/Vidyard-Logo.png"
-colour: "bg-green-900"
+colour: "bg-emerald-950"
 hoverColour: "rgba(29, 216, 101, 0.1)"
 ---
 
@@ -145,14 +145,6 @@ Last but not least I want to thank my fellow co-op, [Massimo De Luca](https://ca
 
 </section>
 
-<section id="conclusion-section">
-
-### Conclusion
-
-Overall, I was blown away with the amazing opportunities presented to me throughout my co-op term and feel so fortunate to be surrounded by such awesome people and such cool technology. This co-op term was an amazing four months of sharpening my front-end skills, getting my first real leadership experience, and lots of fun! I am so thankful I got great experience with powerful tech such as Vue, Ruby on Rails, Cypress, Vuex, Datadog, and Launch Darkly. After another successful co-op term, I cannot wait to see what my next placement will hold!
-
-</section>
-
 <section id="goals-section">
 
 ## Goals
@@ -175,7 +167,7 @@ As I've progressed through my early career I've really come to appreciate the va
 
 One concept I really wanted to get more experience with was test driven development. It is an interesting concept that I've learned during my studies but I have never had the motivation to put it into practice before. To change this I made it a goal of mine to complete some tickets while fully following the ideologies of TDD. To accomplish this goal I spent time refreshing myself on the concepts involved as well as the testing libraries that were available to me at Vidyard. I then began finding tickets with functionality that I believed would be appropriate for a test-driven approach to its development. I was then able to finally take a feature from "red to green" as I began building my Jest assertions before I developed any code. I was able to try this out for a handful of my tickets so I would say that I accomplished this goal. However, I unfortunately found this approach to be a bit heavy for the work I was doing and found that it was taking more time to follow this approach than I believed was worth it. Because of this, I eventually stepped away from following TDD for my tickets, but because I did get to try it out I would definitely mark this as a success.
 
-![Testing clipart](https://clipart-library.com/newhp/158-1587103_report-icons-test-icon-clipart.png)
+![Testing clipart](https://cdn-icons-png.flaticon.com/512/10492/10492944.png)
 
 :GoalHeading{title="Technical Proficiency" subtitle="Learn Ruby and Vue.js" level="Outstanding"}
 
@@ -188,5 +180,13 @@ One goal that I felt was vital to my success at Vidyard would be ramping myself 
 Another goal I created was to utilize my Vidyard "Growth Time" to develop an internal project with some of my peers. I wanted to get more of an opportunity exploring new areas and also working with new people, and by contributing to an internal project I would accomplish both of those things. To achieve this goal I made sure to keep a creative mindset while working. By doing this I kept my eyes out for areas of improvement across the platform. About midway through my term, I was joking with two fellow co-ops about how our most valuable contributions were policing GitHub pull requests to ensure they have a GIF in their description. For context, it is an awesome Vidyard policy where developers are always supposed to place a GIF in each of their PRs. From these jokes I came up with an idea to automate the "GIF Policing" and founded a development guild alongside these two other co-ops to do this. This project ended up involving GitHub webhooks and a whole lot of regex parsing but by the end of it we had a fully operational automated labeling system that would alert owners that their PR was GIF-less. This project was a lot of fun and I'm glad I got to collaborate with some of the other co-ops so I would absolutely mark this goal as achieved.
 
 ![Idea lightbulb clipart](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
+
+</section>
+
+<section id="conclusion-section">
+
+### Conclusion
+
+Overall, I was blown away with the amazing opportunities presented to me throughout my co-op term and feel so fortunate to be surrounded by such awesome people and such cool technology. This co-op term was an amazing four months of sharpening my front-end skills, getting my first real leadership experience, and lots of fun! I am so thankful I got great experience with powerful tech such as Vue, Ruby on Rails, Cypress, Vuex, Datadog, and Launch Darkly. After another successful co-op term, I cannot wait to see what my next placement will hold!
 
 </section>

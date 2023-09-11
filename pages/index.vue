@@ -28,7 +28,7 @@
       <NuxtLink to="/reports" class="hover:text-slate-200">
         <h2>EXPERIENCE</h2>
       </NuxtLink>
-      <div class="flex flex-col justify-start rounded-sm p-4 leading-snug">
+      <NuxtLink to="/reports/vidyardw23" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
             <p class="text-xs font-bold">JAN - AUG 2023</p>
@@ -44,8 +44,14 @@
           <li class="m-2" v-for="tag in PageData.experience.vidyard_w23.tags">
             <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
           </li>
+          <div class="m-2 ml-auto mr-0">
+            <div class="flex items-center rounded-sm bg-slate-400/10 px-3 py-1 text-xs font-medium leading-5 text-slate-300 align-bottom gap-2">
+              More Info
+              <Icon name="ion:open-sharp" color="white" size="1em" />
+            </div>
+          </div>
         </ul>
-      </div>
+      </NuxtLink>
       <NuxtLink to="/reports/vidyards22" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
