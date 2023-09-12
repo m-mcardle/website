@@ -1,5 +1,5 @@
 ---
-title: "Vidyard Co-op Report"
+title: "Vidyard · Co-op Report"
 company: "Vidyard"
 role: "Software Developer (Co-op)"
 period: "January 2023 - August 2023"
@@ -22,7 +22,7 @@ Because I was returning to Vidyard I was already very familiar with the company 
 
 ### About Vidyard
 
-[Vidyard](https://vidyard.com/) is a software company based in Kitchener which provides tools for the modern-day professional. They specialize primarily in providing value through video tooling which provides thorough analytics to enable their users to qualify their leads based on engagement with their video content. During my two terms there I would spend time on both the Analytics team along with the Create team to delivers features that encourage more content creation on the platform.
+[Vidyard](https://vidyard.com/) is a software company based in Kitchener which provides tools for the modern-day sales professional. They specialize primarily in providing value through video tooling which provides thorough analytics to enable their users to qualify their leads based on engagement with their video content. During my two terms there I would spend time on both the Analytics team along with the Create team to delivers features that encourage more content creation on the platform.
 
 ![Vidyard office building](https://whitneyre.com/wp-content/uploads/Main-Image-41-488x326.jpg)
 
@@ -43,9 +43,9 @@ When I first rejoined the team we just began a new project to revamp our team's 
 
 To better familiarize myself with our Datadog integration I used my growth time to enrol in the [Datadog 101: Developer](https://learn.datadoghq.com/courses/dd-101-dev) course. From this course and by contributing to this project I became very comfortable with the Datadog platform and learned a lot about how to use it to monitor our platform. This came in handy later on when I was investigating any incidents and when I created a new dashboard for monitoring our OpenAI integration's performance.
 
-While I didn't find this portion of the term the most facinating, it gave me very meaningful experience with large-scale application monitoring, logging, and tracing and I look forward to putting this new knowledge to use later in my career.
+While I didn't find this portion of the term the most fascinating, it gave me very meaningful experience with large-scale application monitoring, logging, and tracing and I look forward to putting this new knowledge to use later in my career.
 
-![Metrics clipart](https://cdn-icons-png.flaticon.com/128/1389/1389692.png)
+![Metrics clip art](https://cdn-icons-png.flaticon.com/128/1389/1389692.png)
 ![Datadog Logo](https://imgs.search.brave.com/MMOLXH1LyJKqiOwyhrr2Dz5x3rEL1UwEG4soME3LeqI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sb2dv/d2lrLmNvbS9jb250/ZW50L3VwbG9hZHMv/aW1hZ2VzL2RhdGFk/b2c5MjQzLmpwZw)
 
 ### Team Based Branded Sharing Pages
@@ -63,7 +63,7 @@ One extra aspect of this project that I really enjoyed was an investigation I di
 
 After my first four months I was given the opportunity to move to the Create Improve team to work on some really exciting projects. I was very excited to move to this team because I was very interested in the projects they were working on and I was also very excited to work with some of the developers on the team who I had met during my previous terms. Again this team also had a nickname, this time being the **Create Im-purr-ove** team.
 
-![Cat clipart](https://clipartix.com/wp-content/uploads/2017/06/Black-cat-clip-art.png)
+![Cat clip art](https://clipartix.com/wp-content/uploads/2017/06/Black-cat-clip-art.png)
 
 ### OpenAI Chat Migration / Realtime Response Streaming
 
@@ -99,7 +99,7 @@ The last aspect of this co-op term I wanted to mention here was my growing invol
 
 Throughout this term I helped reorganize the onboarding process, cultivate the applicant shortlist, conduct candidate interviews, and also organize all of the co-op social events both in-person and online. I was very happy to get involved with the program and I am very excited to see how it continues to grow in the future.
 
-![Interview clipart](https://imgs.search.brave.com/NCiIIyEXUVdkXFCFq0l1Ta40xizRaHr-2_4iRpDHea0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy8yMDIxMzA5LTIw/MC5wbmc)
+![Interview clip art](https://imgs.search.brave.com/NCiIIyEXUVdkXFCFq0l1Ta40xizRaHr-2_4iRpDHea0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy8yMDIxMzA5LTIw/MC5wbmc)
 
 </section>
 
@@ -142,31 +142,31 @@ I would mark this goal as an outstanding success. When reflecting on the term I 
 
 I would mark this goal as a success. Through my growth time I was able to practice many interview questions on LeetCode, and I have definitely improved my comfort with them. However, I still feel like there is room to improve in this area and I found myself prioritizing other work and projects over my LeetCode practice more than I would have liked.
 
-![Idea lightbulb clipart](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
+![Idea lightbulb clip art](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
 
 :GoalHeading{title="Networking" subtitle="Network and get a large variety of experience across the Vidyard platform" level="Outstanding"}
 
 I would mark this goal as an outstanding success. By networking throughout the term I was able to identify parts of the platform with a very exciting roadmap for the upcoming year. I met with 4 different managers to discuss their team's plans and found the team that I believe is the best fit for my next co-op. On top of this networking, I also sought out bugs that led me to cooperating with developers from many different teams. By working on tasks outside of my typical domain I got to meet and work with lots of new developers.
 
-![Handshake clipart](https://smallimg.pngkey.com/png/small/87-873179_shaking-hands-handshake-handshaking-hand-deal-business-shaking.png)
+![Handshake clip art](https://smallimg.pngkey.com/png/small/87-873179_shaking-hands-handshake-handshaking-hand-deal-business-shaking.png)
 
 :GoalHeading{title="Co-op Mentoring" subtitle="Gain leadership experience by acting as a mentor to incoming co-ops" level="Success"}
 
 I would mark this goal as a success. Throughout my term I made it a focal point to assist any co-ops who could use any help. By willing to collaborate as much as possible I made it very easy for each of my peers to reach out whenever they felt stuck or needed some advice. From these interactions I was able to get experience giving advice to my peers and using my extra experience at the organization to assist others. As someone very early into my career it is very difficult to find opportunities to mentor others, so I am very fortunate that I was in a position where my experience as a previous co-op warranted it. I would mark this goal as only a success because after the initial ramp-up period the co-ops all found their groove and reached out far less at the end of the term. However, the plenty of opportunities I was given to assist them at the start of the term were extremely meaningful to me so I would of course mark this goal as achieved.
 
-![Mentor clipart](https://imgs.search.brave.com/RzHCCqY31vsw4ueu4AaFnKZsjLwNPbDIfUPNMelgiCY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzM0LzM4LzUy/LzM2MF9GXzUzNDM4/NTI4NF9nNlB5djZD/MW5WT2N5b1ZsR2NZ/bG5LMjg2dUtPSmd1/bC5qcGc)
+![Mentor clip art](https://imgs.search.brave.com/RzHCCqY31vsw4ueu4AaFnKZsjLwNPbDIfUPNMelgiCY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzM0LzM4LzUy/LzM2MF9GXzUzNDM4/NTI4NF9nNlB5djZD/MW5WT2N5b1ZsR2NZ/bG5LMjg2dUtPSmd1/bC5qcGc)
 
 :GoalHeading{title="Project Management" subtitle="Utilize my Growth Time to ideate a project and deliver a prototype" level="Outstanding"}
 
 I would mark this goal as an outstanding success. I am extraordinarily proud of the work I was able to do, and the prototype I was able to deliver. Early on during my return to Vidyard I noticed that new AI-powered models have been released that enable users to modify videos such that it appears the participant always maintains eye-contact with their camera. I believed that this technology could perfectly integrate into our platform and I made it a goal of mine to demonstrate this functionality. I planned out this project and got approval from my manager, my director, and even the CTO. They were so excited for the prototype that we actually got sign-off to begin a partnership with a provider to get early-access features and have conversations with a representative of their platform. By the end of the term I fully delivered on my prototype and enabled the functionality for users to try it out on our staging environments. The project was such a success that it has now been added as a prioritized project on the company roadmap.
 
-![Project document clipart](https://cdn-icons-png.flaticon.com/512/5956/5956592.png)
+![Project document clip art](https://cdn-icons-png.flaticon.com/512/5956/5956592.png)
 
 :GoalHeading{title="Co-op Hiring" subtitle="Gain experience screening, selecting, and onboarding candidates effectively" level="Outstanding"}
 
 I would mark this goal as an outstanding success. By actively pursuing a role in the hiring process I was able to participate in both the pre-screening and interview process for co-op hiring. This gave me amazing experience in conducting interviews and gauging candidates and I am so fortunate to be given the opportunity to participate. I also worked as a liaison between the HR representative and the co-ops of the Summer semester to ideate new program activities and organize events for the group. By engaging in all aspects of the co-op hiring experience through assisting in onboarding, event planning, candidate shortlisting, and interviewing, I believe I have more than accomplished this goal.
 
-![Interview clipart](https://imgs.search.brave.com/NCiIIyEXUVdkXFCFq0l1Ta40xizRaHr-2_4iRpDHea0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy8yMDIxMzA5LTIw/MC5wbmc)
+![Interview clip art](https://imgs.search.brave.com/NCiIIyEXUVdkXFCFq0l1Ta40xizRaHr-2_4iRpDHea0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudGhlbm91bnBy/b2plY3QuY29tL3Bu/Zy8yMDIxMzA5LTIw/MC5wbmc)
 
 
 </section>

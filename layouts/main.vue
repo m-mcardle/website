@@ -1,6 +1,7 @@
 <template>
   <div :class="`${colour} leading-relaxed text-slate-400 antialiased selection:bg-slate-300 selection:text-slate-900 h-full`">
     <div class="group/spotlight relative">
+      <NavBar />
       <div id="background" class="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute" />
       <div class="px-6 lg:px-24 lg:min-h-screen flex flex-col lg:flex-row">
         <header class="py-24 lg:w-2/5 lg:sticky lg:top-0 lg:h-screen">

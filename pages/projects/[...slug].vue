@@ -44,4 +44,8 @@ export default defineNuxtComponent({
   align-self: center;
   background: white;
 }
+
+.project code {
+  color: white;
+}
 </style>

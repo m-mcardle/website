@@ -1,5 +1,22 @@
 export const projects = [
   {
+    content: "Portfolio website for providing information about my work experience and personal projects. Built using Nuxt V3 (Vue) and Tailwind CSS.",
+    createdAt: "2023-09-12T14:20:52.150Z",
+    github: "m-mcardle/website",
+    id: 21,
+    link: "/projects/WebsiteV3",
+    published: false,
+    tags: [
+      "Nuxt",
+      "Tailwind CSS",
+      "Vercel"
+    ],
+    title: "Website V3",
+    updatedAt: "2023-09-12T14:20:52.150Z",
+    year: "2023",
+    logo: "/images/WebsiteV3.jpeg"
+  },
+  {
     content: "ChefGPT is a web application that leverages ChatGPT to provide recipes based on the ingredients the user has available to them. Built using Svelte with a Python Flask backend.",
     createdAt: "2023-04-03T00:02:33.160Z",
     github: "m-mcardle/ChefGPT",
