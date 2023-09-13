@@ -23,8 +23,8 @@
               <li class="py-2"><a href="#introduction-section" class="nav-link">INTRODUCTION</a></li>
               <li class="py-2"><a href="#report-section" class="nav-link">REPORT</a></li>
               <li class="py-2"><a href="#kudos-section" class="nav-link">KUDOS</a></li>
-              <li class="py-2"><a href="#conclusion-section" class="nav-link">CONCLUSION</a></li>
               <li class="py-2"><a href="#goals-section" class="nav-link">GOALS</a></li>
+              <li class="py-2"><a href="#conclusion-section" class="nav-link">CONCLUSION</a></li>
             </ul>
           </nav>
         </template>
@@ -51,6 +51,25 @@ try {
 <script>
 export default defineNuxtComponent({
   name: 'ReportPage',
+  
+  mounted() {
+    this.addHasImgClass();
+  },
+
+  methods: {
+    addHasImgClass() {
+      const paragraphs = document.querySelectorAll('p');
+
+      paragraphs.forEach(function (paragraph) {
+        const hasImgChild = paragraph.querySelector('img') !== null;
+
+        // If it has a child <img> element, add a class to it
+        if (hasImgChild) {
+          paragraph.classList.add('has-image');
+        }
+      });
+    }
+  }
 })
 </script>
 
@@ -60,13 +79,14 @@ export default defineNuxtComponent({
   height: auto;
   align-self: center;
   background: white;
+  padding: 2px;
 }
 
 .report h3 {
   margin-top: 3rem;
 }
 
-.report p:has(> img) {
+.report .has-image {
   display: flex;
   justify-content: space-evenly;
   margin-top: 10px;

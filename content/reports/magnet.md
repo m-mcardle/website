@@ -1,5 +1,5 @@
 ---
-title: "Magnet Forensics Co-op Report"
+title: "Magnet Forensics · Co-op Report"
 company: "Magnet Forensics"
 role: "Software Developer (Co-op)"
 period: "May 2021 - December 2021"
@@ -101,14 +101,6 @@ I seriously cannot stress enough how amazing the people were during my time at M
 
 </section>
 
-<section id="conclusion-section">
-
-## Conclusion
-
-Overall my co-op term was an absolutely amazing experience and I am so grateful for all the opportunities to learn from such intelligent and passionate people. I am also super grateful that I got experience with so many fascinating and powerful technologies during my time there such as Jenkins, AWS, Grafana, Gerrit, Locust, ElasticSearch, Python, Kubernetes, Azure, Docker, C#, Bootstrap, React.js, and Bash. For my first co-op opportunity, I could never have imagined it being so successful and enjoyable, and it has made me even more excited about my future career.
-
-</section>
-
 <section id="goals-section">
 
 ## Goals
@@ -131,7 +123,7 @@ Looking back this is my most regretted goal. My Magnet mentor Chris warned me th
 
 Early on in my co-op I felt myself lurking in group conversations about implementations and design orientated conversations, especially when it involved a technology I hadn't worked with yet. I wanted to be able to contribute to these conversations so I made it a goal of mine to learn from my coworkers about how they approach those types of conversations, and also research any technologies or concepts that I was unfamiliar with when they were brought up in these conversations. This turned out to be one of my favourite goals looking back as it pushed me out of my comfort zone to learn about so many new technologies during my term. I also think this goal helped develop a very important skill, engaging in discussions without an expert-level of knowledge about the subject. By the end of the term I feel I learned how to ask the important questions during this discussions to understand the problems and possible solutions, without needing to be very experienced with the technologies involved in the problem. This allowed me to contribute my opinion far more during design discussions and when creating acceptance-criteria for a ticket, and I think this growth in my abilities really unlocked a huge aspect of the job for me once I was able to engage in these conversations. I am very proud of how this goal turned out and I would certainly say I achieved it.
 
-![Conversation clipart](https://static.vecteezy.com/system/resources/previews/013/042/573/original/talk-people-icon-in-clipart-concept-conversation-discussion-sign-symbol-vector.jpg)
+![Conversation clip art](https://static.vecteezy.com/system/resources/previews/013/042/573/original/talk-people-icon-in-clipart-concept-conversation-discussion-sign-symbol-vector.jpg)
 
 :GoalHeading{title="Product Management" subtitle="Learn more about product management" level="Success"}
 
@@ -149,7 +141,7 @@ During my first four months of my co-op I learned the base level knowledge neede
 
 After four months at Magnet I realized I had been focusing too much on maximizing my productivity during work hours, and was missing out on some great social opportunities that Magnet was providing. Magnet has a weekly meeting for co-op students to attend to relax and play games and socialize, and during my first term I was taking myself too seriously and rarely attended. This meant I missed out of meeting some awesome people and possible future connections to use in my career. For this reason, I made it a goal of mine to attend all social events presented to me (work-permitting). After attending almost all of the term's co-op meetings, I have made friends with plenty of the other co-op students and have remained in touch even after the term. Therefore I would mark this goal as an outstanding success.
 
-![Handshake clipart](https://www.kindpng.com/picc/m/150-1504367_clip-art-shake-hand-transparent-background-handshake-clipart.png)
+![Handshake clip art](https://www.kindpng.com/picc/m/150-1504367_clip-art-shake-hand-transparent-background-handshake-clipart.png)
 
 :GoalHeading{title="Python" subtitle="Become familiar with the Python programming language" level="Outstanding"}
 
@@ -161,12 +153,20 @@ During my first four months of my co-op, I worked with Python for my first time 
 
 I became very interested in the responsibilities required to run a smooth BVT before a release. However, I knew that the only release left before my term was over was going to be a very important one. For this reason, I decided to take on the responsibility as a co-champion with another developer to ensure all went smoothly. This gave me an opportunity to lead the whole team to ensure all necessary behaviour is tested and all procedure is followed before a release. It was quite a stressful goal to take on, but I am so glad I gave myself the opportunity to take on such an important role during my time at Magnet.
 
-![Testing clipart](https://clipart-library.com/newhp/158-1587103_report-icons-test-icon-clipart.png)
+![Testing clip art](https://cdn-icons-png.flaticon.com/512/10492/10492944.png)
 
 :GoalHeading{title="Personal Projects" subtitle="Enhance my project portfolio" level="Outstanding"}
 
 As my co-op term came closer to its end, I realized I had learned so much but didn't apply my learnings to any projects for my portfolio. Because of this, I made it a goal to apply learnings from work hours into personal projects during my leisure time. This gave me opportunity to develop projects in Python, React.js, Bash, and C that I can add to my portfolio to show future employers. I ended up developing a F1 Standings Visualizer in Python, this whole website in React.js and Tailwind, some helper scripts for both projects in Bash, a Roulette simulator for a roommate of mine in C, and a hangman game in C as well. Of course I always will wish I had completed even more projects, but I am very happy with what resulted from this goal and would mark it as a great success.
 
-![Idea lightbulb clipart](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
+![Idea lightbulb clip art](https://static.vecteezy.com/system/resources/previews/017/348/068/original/lightbulb-idea-concept-line-icon-light-bulb-bright-creative-solution-and-innovation-pictogram-efficient-electric-low-energy-lightbulb-outline-sign-editable-stroke-isolated-illustration-vector.jpg)
+
+</section>
+
+<section id="conclusion-section">
+
+## Conclusion
+
+Overall my co-op term was an absolutely amazing experience and I am so grateful for all the opportunities to learn from such intelligent and passionate people. I am also super grateful that I got experience with so many fascinating and powerful technologies during my time there such as Jenkins, AWS, Grafana, Gerrit, Locust, ElasticSearch, Python, Kubernetes, Azure, Docker, C#, Bootstrap, React.js, and Bash. For my first co-op opportunity, I could never have imagined it being so successful and enjoyable, and it has made me even more excited about my future career.
 
 </section>
