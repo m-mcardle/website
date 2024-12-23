@@ -112,7 +112,7 @@
         <div class="flex flex-col w-4/5">
           <p class="text-white font-bold">B.Comp, Software Engineering (Co-op) · University of Guelph</p>
           <p class="text-white font-semi-bold text-xs mb-2">Minor in Business</p>
-          <p>I am a Dean's List student with a cumulative GPA of 90.1%, and my targeted graduation is May 2024. I am also a recipient of the Braithwaite Business Scholarship for excellence in my minor and was named the 2023 Co-op Student of the Year.</p>
+          <p>During my studies I was a Dean's List student with a cumulative GPA of 91.5%, and graduated with distinction in May of 2024. I am also a recipient of the Braithwaite Business Scholarship for excellence in my minor and was named the 2022 Co-op Student of the Year.</p>
         </div>
       </div>
     </section>
