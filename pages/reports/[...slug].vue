@@ -1,50 +1,45 @@
 <template>
-  <ContentDoc tag="article" class="w-full mx-auto" :path="$route.path.toLowerCase()">
-    <template #default="{ doc }">
-      <NuxtLayout
-        name="main"
-        :colour="doc.colour"
-        :hover-colour="doc.hoverColour"
-      >
-        <template #header>
-          <div class="flex flex-row">
-            <div class="w-1/6">
-              <img :src="doc.image" alt="Company Logo" class="h-auto" />
-            </div>
-            <div class="flex flex-col w-5/6">
-              <h1 class="text-4xl text-slate-200 font-bold">{{doc.company}}</h1>
-              <h2 class="text-2xl text-slate-300 font-medium">{{doc.role}}</h2>
-              <p>{{doc.period}}</p>
-            </div>
-          </div>
+  <NuxtLayout
+    name="main"
+    :colour="doc.colour"
+    :hover-colour="doc.hoverColour"
+  >
+    <template #header>
+      <div class="flex flex-row">
+        <div class="w-1/6">
+          <img :src="doc.image" alt="Company Logo" class="h-auto" />
+        </div>
+        <div class="flex flex-col w-5/6">
+          <h1 class="text-4xl text-slate-200 font-bold">{{doc.company}}</h1>
+          <h2 class="text-2xl text-slate-300 font-medium">{{doc.role}}</h2>
+          <p>{{doc.period}}</p>
+        </div>
+      </div>
 
-          <nav class="hidden lg:block">
-            <ul class="mt-16">
-              <li class="py-2"><a href="#introduction-section" class="nav-link">INTRODUCTION</a></li>
-              <li class="py-2"><a href="#report-section" class="nav-link">REPORT</a></li>
-              <li class="py-2"><a href="#kudos-section" class="nav-link">KUDOS</a></li>
-              <li class="py-2"><a href="#goals-section" class="nav-link">GOALS</a></li>
-              <li class="py-2"><a href="#conclusion-section" class="nav-link">CONCLUSION</a></li>
-            </ul>
-          </nav>
-        </template>
-
-        <ContentRenderer :value="doc" class="report w-full max-w-full mx-auto prose text-slate-400 prose-code:text-slate-200 prose-strong:text-slate-400 prose-headings:text-slate-400 prose-a:text-slate-300" />
-      </NuxtLayout>
+      <nav class="hidden lg:block">
+        <ul class="mt-16">
+          <li class="py-2"><a href="#introduction-section" class="nav-link">INTRODUCTION</a></li>
+          <li class="py-2"><a href="#report-section" class="nav-link">REPORT</a></li>
+          <li class="py-2"><a href="#kudos-section" class="nav-link">KUDOS</a></li>
+          <li class="py-2"><a href="#goals-section" class="nav-link">GOALS</a></li>
+          <li class="py-2"><a href="#conclusion-section" class="nav-link">CONCLUSION</a></li>
+        </ul>
+      </nav>
     </template>
-  </ContentDoc>
+
+    <ContentRenderer :value="doc" class="report w-full max-w-full mx-auto prose text-slate-400 prose-code:text-slate-200 prose-strong:text-slate-400 prose-headings:text-slate-400 prose-a:text-slate-300" />
+  </NuxtLayout>
 </template>
 
 <script setup>
 const route = useRoute()
 const slug = route.path.toLowerCase()
-try {
-  const data = await queryContent(slug).findOne();
-  if (!data) {
-    throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
-  }
-} catch {
-  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+
+const { data: doc } = await useAsyncData(route.path, () => {
+  return queryCollection('reports').path(route.path).first()
+});
+if (!doc.value) {
+  throw createError({ statusCode: 404, message: 'Report not found' })
 }
 </script>
 

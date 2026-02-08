@@ -15,7 +15,7 @@ hoverColour: "rgb(197, 217, 234, 0.15)"
 
 My name is Matthew McArdle and I am a Software Engineering Student at the University of Guelph. On this page I will be going into great detail about my first co-op placement during my time at the amazing Waterloo company Magnet Forensics. I hope by the end of this you get a good idea about all the awesome experiences I had during my time at Magnet, and are as blown away as I am about how many different things I had the opportunity to learn.
 
-![Magnet Forensics logo](https://www.cbj.ca/wp-content/uploads/2015/11/Magnet-Forensics-logo.jpg)
+![Magnet Forensics logo](https://www.mmcardle.ca/images/Magnet-Logo.png)
 
 ### About Magnet Forensics
 [Magnet Forensics](https://www.magnetforensics.com/) is a Waterloo-based company that develops tools used primarily by law enforcement or private investigators to uncover digital evidence left on suspects' or victims' devices. I joined Magnet in May of 2021, which just so happened to be at a very exciting time for the company. On April 28th they became the first Waterloo company to have an IPO in 15 years.
@@ -46,7 +46,7 @@ One thing that I really came to appreciate about Magnet is its policy at each al
 As mentioned before I joined the Magnet REVIEW team. More specially I originally joined the Taco sub-team which specializes in deployment and infrastructure primarily. This came as very exciting but terrifying news to know I would be surrounded by super cool tech which I unfortunately had little to no experience with. I knew that this term would certainly give me more than enough opportunities to try out new technologies and immediately knew I was on a team that was more than happy to help me learn. I want to take some time now to go over some important themes/tasks I performed during my time at Magnet to demonstrate some of the awesome opportunities I had to learn.
 
 ![Kubernetes logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png)
-![AWS logo](https://www.zencos.com/wp-content/uploads/2021/11/aws-logo.png)
+![AWS logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/330px-Amazon_Web_Services_Logo.svg.png)
 
 ### Bash Installer
 During the early days of my term I found myself working quite frequently on our product's installer. It was written in Bash which I had some experience with during University, so I found it far more approachable than other parts of the product. I started off with small little quality of life improvements such as changing the name of the installer's folder from dist to review-VERSION, and slowly built up to adding configuration options into the installer such as allowing them to configure their company's logo that gets uploaded for use in the front-end.
@@ -117,7 +117,7 @@ One goal was to become proficient using C#. I came into the work term with no pr
 
 Looking back this is my most regretted goal. My Magnet mentor Chris warned me that as I became more involved with the team I would find this goal not as appealing and unfortunately that was exactly the case. I believed getting a certification would be a great tangible evidence of my learnings during my co-op, but as I became completely integrated into the team, I found little time to dedicate to this goal. On top of that, the certification itself became less and less appealing as I did more and more AWS courses. It turns out that the certification is targeted at product management or other roles with less of a focus on technical ability. This essentially made the course focused on using the AWS dashboard and learning the high-level definitions of each AWS product. It also put more of a focus on cost-management and other tasks that a employee in a leadership role would care about, and as a co-op hoping to learn about implementations, that didn't align with my current career status. I ended up accepting that this goal would not be accomplished in lieu of the issues I just mentioned. However, I would honestly measure it a slight success because through my co-op term I learned so much about AWS just through hands on experience (even if I don't have a certification to show for it).
 
-![AWS logo](https://www.zencos.com/wp-content/uploads/2021/11/aws-logo.png)
+![AWS logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/330px-Amazon_Web_Services_Logo.svg.png)
 
 :GoalHeading{title="Soft Skills" subtitle="Improve my ability to engage in technical conversations" level="Outstanding"}
 
