@@ -12,4 +12,11 @@ export default defineNuxtConfig({
     '~/assets/css/global.css',
   ],
   plugins: [{ src: '~/plugins/vercel.js', mode: 'client' }],
+  compatibilityDate: '2026-02-08',
+  content: {
+    database: {
+      type: 'sqlite',
+      filename: ':memory:'
+    }
+  }
 })

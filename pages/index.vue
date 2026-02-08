@@ -6,7 +6,7 @@
   >
     <template #header>
       <h1 class="text-4xl text-slate-200 font-bold">Matt McArdle</h1>
-      <h2 class="text-2xl text-slate-300 font-medium">Software Engineer / Student</h2>
+      <h2 class="text-2xl text-slate-300 font-medium">Software Engineer</h2>
 
       <nav class="hidden lg:block">
         <ul class="mt-16">

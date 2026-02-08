@@ -87,4 +87,8 @@ export default {
 .nav-active:after {
   content: " —";
 }
+
+html {
+  overscroll-behavior: none;
+}
 </style>

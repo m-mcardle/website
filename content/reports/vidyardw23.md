@@ -7,7 +7,6 @@ description: "Matt McArdle's co-op work term report for his role at Vidyard in t
 image: "/images/Vidyard-Logo.png"
 colour: "bg-emerald-950"
 hoverColour: "rgba(29, 216, 101, 0.1)"
-draft: true
 ---
 
 <section id="introduction-section">
@@ -56,7 +55,7 @@ To resolve this my team was tasked with creating a new system in the backend to 
 
 One extra aspect of this project that I really enjoyed was an investigation I did into how these Sharing Pages behave when different domains are assigned or removed from them (for example a custom CNAME or Vidyard-provided subdomain). With the new assignment type possibly overwriting the current personal Sharing Page each team member would have, we wanted to ensure that our routing logic would not break any existing links. I was able to investigate this behaviour and then even found a way to optimize our behavior to support 66% more domain changes than we previously supported. This was a very exciting investigation and I was very happy to be able to deliver this optimization to our users.
 
-![GraphQL Logo](https://ww1.freelogovectors.net/wp-content/uploads/2021/01/graphql-logo-freelogovectors.net_.png?lossy=1&resize=400,439&ssl=1)
+![GraphQL Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/960px-GraphQL_Logo.svg.png)
 ![Hyperlink icon](https://imgs.search.brave.com/isHMBA61DJvwQHY6JAT3fAfY100LHVEv5ej4z9pXDGo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA0LzU3LzYyLzQz/LzM2MF9GXzQ1NzYy/NDMxMl81T3pId3Z6/ODByQ3dwVUxrQmpD/OGpQQVdpcnVtc1ZX/di5qcGc)
 
 ### Create Team
@@ -74,13 +73,13 @@ I then shaped out a project to involve researching, delivering, and optimizing t
 This project was so much fun to work on and it involved a lot of research, proompt-engineering, WebSockets for GraphQL subscriptions, Redis, and even some Sidekiq for asynchronous jobs in Ruby on Rails. I got to architect a fairly complex backend system to handle the realtime response streaming and also got to get more frontend experience by implementing the new UI in our Chrome Extension using React and Redux. I am so proud of the work I was able to do on this project and was so happy to see this get released to 100% of our users.
 
 ![OpenAI logo](https://logos-download.com/wp-content/uploads/2022/06/OpenAI_Logo-2959x3000.png)
-![Sidekiq logo](https://seeklogo.com/images/S/sidekiq-logo-F1F1416F78-seeklogo.com.png)
+![Sidekiq logo](https://sidekiq.org/assets/2018/square.svg)
 ![Ruby on Rails logo](https://www.logo.wine/a/logo/Ruby_on_Rails/Ruby_on_Rails-Logo.wine.svg)
 
 <div/>
 
 ![Redis logo](https://logowik.com/content/uploads/images/redis.jpg)
-![GraphQL logo](https://ww1.freelogovectors.net/wp-content/uploads/2021/01/graphql-logo-freelogovectors.net_.png?lossy=1&resize=400,439&ssl=1)
+![GraphQL logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/960px-GraphQL_Logo.svg.png)
 ![React logo](https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem-700x626.png)
 
 ### AI-Powered Gaze Redirection Project

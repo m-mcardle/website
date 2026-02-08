@@ -1,33 +1,18 @@
 <template>
-  <ContentDoc tag="article" class="w-full mx-auto" :path="$route.path.toLowerCase()">
-    <template #not-found>
-      oops nothing here
-    </template>
-
-    <template #empty>
-      oops empty
-    </template>
-
-    <template #default="{ doc }">
-      <NuxtLayout
-        name="project"
-      >
-        <ContentRenderer :value="doc" class="project w-full mx-auto text-white prose prose-headings:text-white prose-a:text-white" />
-      </NuxtLayout>
-    </template>
-  </ContentDoc>
+  <NuxtLayout name="project">
+    <ContentRenderer :value="doc" class="project w-full mx-auto text-white prose prose-headings:text-white prose-a:text-white" />
+  </NuxtLayout>
 </template>
 
 <script setup>
 const route = useRoute()
 const slug = route.path.toLowerCase()
-try {
-  const data = await queryContent(slug).findOne();
-  if (!data) {
-    throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
-  }
-} catch {
-  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+
+const { data: doc } = await useAsyncData(slug, () => {
+  return queryCollection('projects').path(slug).first()
+});
+if (!doc.value) {
+  throw createError({ statusCode: 404, message: 'Project not found' })
 }
 </script>
 

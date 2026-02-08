@@ -8,9 +8,9 @@
     <section class="flex flex-col mx-auto w-full">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div :id="report.id" v-for="report in Reports" class="flex col-span-1 flex-col justify-start rounded-sm p-4 leading-snug">
-          <NuxtLink :to="report._path" class="peer flex flex-row justify-between gap-4 hover:bg-slate-600/50">
+          <NuxtLink :to="report.path" class="peer flex flex-row justify-between gap-4 hover:bg-slate-600/50">
             <nuxt-img v-if="report.image" :src="report.image" alt="Report Image" class="w-1/6 h-min" />
-            <div>
+            <div class="flex flex-col gap-2 w-full">
               <div class="flex flex-row justify-between">
                 <p class="text-white font-bold">{{ report.title }}</p>
                 <p class="text-white font-semibold text-xs">{{ report.period }}</p>
@@ -40,7 +40,7 @@ export default {
   },
 
   async created() {
-    const data = await queryContent('reports').where({ _draft: false }).find();
+    const { data } = await useAsyncData(() => queryCollection('reports').all());
     this.Reports = data;
   },
 }

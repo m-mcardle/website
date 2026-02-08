@@ -112,7 +112,6 @@ However, after manually doing the same task a few times, I realized this was a p
 
 After a short period of pair-programming with two fellow co-ops, we were able to implement some fancy regex to parse for the supported image formats on GitHub and apply the new "Needs GIF" label appropriately. This was a very fun and valuable experience as I got to experience designing a new service and establishing a guild to accomplish a project.
 
-![Police officer clip art black and white](https://iconarchive.com/download/i91984/icons8/windows-8/Users-Police.ico)
 ![Police officer GIF](https://media.giphy.com/media/81xwEHX23zhvy/giphy.gif)
 
 
