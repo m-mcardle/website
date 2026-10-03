@@ -1,6 +1,6 @@
 export const data = {
   about: {
-    paragraph_one: 'My name is Matt McArdle and I am a Software Engineering graduate from the University of Guelph. I have development experience managing cloud infrastructure using Kubernetes and AWS, front-end experience developing a web app in React and Vue, and backend experience developing microservices written in C# and serverside code using Ruby on Rails.',
+    paragraph_one: 'My name is Matt McArdle and I am a Software Engineering graduate from the University of Guelph. I\'m a full-stack engineer who has shipped features across React and Vue front ends, C#/.NET and Ruby on Rails backends, and cloud infrastructure on AWS and Azure using Kubernetes.',
     paragraph_two: "Throughout my studies I managed to achieve Dean's List honours in all academic semesters with an average of 91.5% (GPA of 4.0), and was awarded the Braithwaite Business Scholarship for my excellence in my business minor along with my major. During my co-op roles I have received the highest possible grade from my employers during all three terms, and was named the Co-op Student of the Year for my performance in 2022.",
   },
   experience: {
