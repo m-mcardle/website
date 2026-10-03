@@ -28,6 +28,24 @@
       <NuxtLink to="/reports" class="hover:text-slate-200">
         <h2>EXPERIENCE</h2>
       </NuxtLink>
+      <div class="flex flex-col justify-start rounded-sm p-4 leading-snug">
+        <div class="flex flex-row">
+          <div class="flex flex-col justify-between w-1/5">
+            <p class="text-xs font-bold">MAR 2025 - PRESENT</p>
+            <nuxt-img src="/images/Magnet-Logo.png" alt="Magnet Forensics Logo" class="w-16" />
+          </div>
+          <div class="flex flex-col w-4/5">
+            <p class="text-white font-bold">Software Engineer · Magnet Forensics</p>
+            <p class="text-sm mt-2">{{ PageData.experience.magnet_fte.body }}</p>
+          </div>
+        </div>
+
+        <ul class="flex flex-wrap">
+          <li class="m-2" v-for="tag in PageData.experience.magnet_fte.tags">
+            <div class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">{{ tag }}</div>
+          </li>
+        </ul>
+      </div>
       <NuxtLink to="/reports/vidyardw23" class="flex flex-col justify-start hover:bg-slate-600/50 rounded-sm p-4 leading-snug">
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
