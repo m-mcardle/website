@@ -31,7 +31,7 @@
       <div class="flex flex-col justify-start rounded-sm p-4 leading-snug">
         <div class="flex flex-row">
           <div class="flex flex-col justify-between w-1/5">
-            <p class="text-xs font-bold">MAR 2025 - PRESENT</p>
+            <p class="text-xs font-bold">MAR 2025 - SEPT 2026</p>
             <nuxt-img src="/images/Magnet-Logo.png" alt="Magnet Forensics Logo" class="w-16" />
           </div>
           <div class="flex flex-col w-4/5">
